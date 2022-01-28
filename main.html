@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mania Typing</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script type="module" src="game.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="game-wrapper">
+				<div class="game-window">
+					<canvas class="game-window__area"></canvas>
+				</div>
+				<div class="information-block">
+					<div class="game-stats">
+						<div class="game-stats__fps"></div>
+						<div class="game-stats__score"></div>
+						<div class="game-stats__accuracy"></div>
+						<div class="game-stats__game-speed"></div>
+					</div>
+					<div class="game-controls">
+						<h4>Game Speed</h4>
+						<input
+							type="range"
+							min="10"
+							max="120"
+							step="10"
+							value="40"
+							class="game-controls__range-input"
+						/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+{
+	"name": "typinggame",
+	"version": "1.0.0",
+	"description": "mania type simple typing game",
+	"main": "main.html",
+	"scripts": {
+		"start": "not-implemented"
+	},
+	"keywords": [
+		"mania",
+		"typing"
+	],
+	"author": "PerishableQ",
+	"license": "ISC"
+}
