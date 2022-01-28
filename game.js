@@ -1,4 +1,4 @@
-import { palettes, gameStats, lettersStack, keysStack, gameSpeedInput } from "./game/constants.js";
+import { gameStats, gameSpeedInput } from "./game/constants.js";
 import {
 	clearCanvas,
 	handleGameSpeed,

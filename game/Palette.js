@@ -1,6 +1,6 @@
-import { generateAlphabet, randomIntFromInterval } from './utils.js';
-import { canvasHeight, ctx, gameStats, paletteHeight, paletteWidth } from './constants.js';
-import { GameObject } from './GameObject.js';
+import { generateAlphabet, randomIntFromInterval } from "./utils.js";
+import { canvasHeight, ctx, gameStats, paletteHeight, paletteWidth } from "./constants.js";
+import { GameObject } from "./GameObject.js";
 
 export class Palette extends GameObject {
 	constructor(ctx, x, y, letter) {
@@ -26,6 +26,6 @@ export class Palette extends GameObject {
 			this.isCollided = true;
 		}
 
-    this.y += gameStats.movingSpeed * (secondsPassed || 0.0167);
+		this.y += gameStats.movingSpeed * (secondsPassed || 0.0167);
 	}
 }

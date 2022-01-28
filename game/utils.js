@@ -42,12 +42,12 @@ export function calculateNewPalettePositionY() {
 }
 
 export function handleGameSpeed() {
-	// if (gameStats.score >= 1000) {
-	// 	gameStats.movingSpeed = 60;
-	// }
-	// if (gameStats.score >= 3000) {
-	// 	gameStats.movingSpeed = 80;
-	// }
+	if (gameStats.score >= 1000) {
+		gameStats.movingSpeed = 60;
+	}
+	if (gameStats.score >= 3000) {
+		gameStats.movingSpeed = 80;
+	}
 	if (gameStats.score >= 5000) {
 		gameStats.movingSpeed = 100;
 	}
